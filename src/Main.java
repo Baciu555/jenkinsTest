@@ -1,6 +1,7 @@
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Mathematics math = new Mathematics();
+        System.out.println(math.add(2, 2));
     }
 }
